@@ -52,12 +52,3 @@ def host_ping(list_ip_addresses, timeout=500, requests=1):
 if __name__ == '__main__':
     ip_addresses = ['yandex.ru', '2.2.2.2', '192.168.0.100', '192.168.0.101']
     host_ping(ip_addresses)
-
-"""
-Результат:
-
-yandex.ru - Узел доступен
-2.2.2.2 - Узел недоступен
-192.168.0.100 - Узел доступен
-192.168.0.101 - Узел недоступен
-"""
