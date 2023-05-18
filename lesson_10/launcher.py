@@ -16,3 +16,4 @@ while True:
     elif action == 'x':
         while process:
             process.pop().kill()
+            
